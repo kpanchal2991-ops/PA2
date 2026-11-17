@@ -1,0 +1,108 @@
+START_HP 10
+SCENE You wake up on your spaceship and basically everything is broken. You should probably figure out how to get home.
+HP 0
+LOOT 0
+ITEM none
+CHOICES 3
+LABEL Go check the cargo room
+SCENE The cargo room is a complete mess but you find some expensive looking stuff.
+HP -1
+LOOT 7
+ITEM Plasma Cutter
+CHOICES 2
+LABEL Open the weird glowing box
+SCENE You open the box and find some alien crystals. They look valuable but the box is also radioactive which is not great.
+HP -5
+LOOT 8
+ITEM Alien Crystal
+CHOICES 1
+LABEL Take the crystals and keep going
+SCENE You walk into the reactor room and the reactor explodes. Probably should not have taken the radioactive crystals.
+HP -5
+LOOT 4
+ITEM Reactor Core
+CHOICES 0
+LABEL Leave through the maintenance tunnel
+SCENE You crawl through a tiny maintenance tunnel and find some random repair stuff.
+HP -2
+LOOT 2
+ITEM Repair Kit
+CHOICES 1
+LABEL Crawl toward the engine room
+SCENE There is a broken wire in the tunnel and it shocks you really bad. You do not make it to the engine room.
+HP -8
+LOOT 3
+ITEM Power Cell
+CHOICES 0
+LABEL Go to the bridge
+SCENE Somehow the computers on the bridge still work. The navigation system shows a possible way back home.
+HP 0
+LOOT 2
+ITEM Navigation Chip
+CHOICES 1
+LABEL Try to fix navigation
+SCENE You mess with some wires and somehow get navigation working again. It gives you a route toward Earth.
+HP 1
+LOOT 3
+ITEM Star Map
+CHOICES 2
+LABEL Follow the route
+SCENE You fly through an asteroid field and find an old probe floating around.
+HP -1
+LOOT 3
+ITEM Probe Battery
+CHOICES 1
+LABEL Check out the probe
+SCENE The probe still works and finds some random supply station near a moon.
+HP 0
+LOOT 4
+ITEM Station Code
+CHOICES 1
+LABEL Go to the supply station
+SCENE You dock at the station and somehow there is still fuel and engine parts inside.
+HP 2
+LOOT 5
+ITEM Engine Part
+CHOICES 1
+LABEL Fix the ship and go home
+SCENE You fix the ship and finally make it back to Earth. Somehow you actually survived.
+HP 0
+LOOT 8
+ITEM Medal
+CHOICES 0
+LABEL Check out a weird signal
+SCENE You follow the signal and find an abandoned research satellite. This is probably a bad idea.
+HP -2
+LOOT 5
+ITEM Research Data
+CHOICES 1
+LABEL Go inside anyway
+SCENE The satellite starts falling apart basically the second you enter it. You get crushed inside.
+HP -10
+LOOT 10
+ITEM Prototype Drive
+CHOICES 0
+LABEL Get in the escape pod
+SCENE You give up on the ship and launch the escape pod before something else breaks.
+HP 0
+LOOT 1
+ITEM Oxygen Tank
+CHOICES 2
+LABEL Fly toward the moon
+SCENE You somehow land the escape pod near an old mining colony.
+HP -1
+LOOT 2
+ITEM Mining Pass
+CHOICES 1
+LABEL Go inside the colony
+SCENE You find a rescue beacon inside and a transport ship eventually comes to get you.
+HP 1
+LOOT 3
+ITEM Rescue Beacon
+CHOICES 0
+LABEL Send a distress signal
+SCENE You send out a distress signal and luckily a patrol ship actually hears it and picks you up.
+HP 0
+LOOT 2
+ITEM Distress Beacon
+CHOICES 0
